@@ -53,7 +53,7 @@ export default function Nav({items}){
 
   return (
     <>
-      <div className="container-fluid d-flex flex-row justify-content-center align-items-center p-5">
+      <div className="container d-flex flex-row justify-content-center align-items-center p-5">
         <form className="container d-flex flex-row align-items-end justify-content-center" method="Get" id="myForm">
             <div className="container d-flex flex-column justify-content-between align-items-start">
               <label>Category : </label>

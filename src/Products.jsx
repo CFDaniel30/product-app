@@ -5,7 +5,7 @@ export default function Products({items}){
   
     return (
       <>
-        <div className="container-fluid row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 justify-content-start align-items-center m-auto row-gap-3" style={{maxwidth: '1600px'}}>
+        <div className="container row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 justify-content-start align-items-center m-auto row-gap-3" style={{maxwidth: '1600px'}}>
           {
             items.map((item) => (
               <div key = {item.prodId} 
